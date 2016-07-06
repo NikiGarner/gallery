@@ -1,0 +1,82 @@
+html, body {
+  margin: 0;
+  padding: 0;
+
+  background: grey;
+}
+
+@media only screen and (max-width: 674px){
+
+
+
+  .navBar {
+    width: 100vw;
+    height: 10vh;
+
+    background: black;
+  }
+
+  .box {
+    width: 90vw;
+    height: 20vh;
+
+    background: black;
+    margin: 2vh auto;
+  }
+
+}
+
+@media only screen and (min-width: 675px) {
+
+  .wrapper {
+    width: 100vw;
+
+  }
+
+  .navBar {
+    width: 100vw;
+    height: 12vh;
+
+    background: black;
+  }
+
+  .box {
+    width: 45vw;
+    height: 20vh;
+    background: black;
+    display: inline-block;
+
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+
+    margin-left: 3vw;
+  }
+}
+
+@media only screen and (min-width: 1300px){
+
+  .navBar {
+    width: 100vw;
+    height: 12vh;
+
+    background: black;
+  }
+
+  .box {
+    width: 28vw;
+    height: 20vh;
+    background: black;
+    display: inline-block;
+
+    margin-left: 4vw;
+
+  }
+
+}
+/*Clear fix*/
+
+/*.clearFix {
+  content: " ";
+  display: block;
+  clear: both;
+}*/
